@@ -1,0 +1,95 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fonte1: 'Courier New', Courier, monospace;
+    --fonte2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --fonte3: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+html, body{
+    font-family: var(--fonte1);
+    background-color: beige;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+header>h1{
+    font-family: var(--fonte2);
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header>p{
+    padding-bottom: 50px;
+    font-size: 5vw;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+section{
+    font-family: var(--fonte3);
+    padding: 25px 0px 25px 25px;
+    line-height: 2em;
+    font-size: 3.5vw;
+}
+
+
+section>p{
+    padding-bottom: 2em;
+}
+
+
+.img{
+    background-color: rgb(52, 52, 52);
+    color: white;}
+
+
+.img>p{
+    background-color: rgba(0, 0, 0, 0.133);
+    display: inline-block;
+    padding: 5px;
+
+
+}
+
+
+.normal{
+    background-color: rgb(255, 255, 255);
+}
+
+#primeira{
+    background:black url(imagens/background001.jpg) right bottom fixed ;
+    background-size: cover;
+}
+
+#segunda{
+    background:black url(imagens/background002.jpg) center center fixed ;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+
